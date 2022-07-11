@@ -75,7 +75,7 @@ class _MyAppState extends State<MyApp> {
                 height: 60,
                 child: CountryCodePicker(
                   onChanged: (e) => print(e.toLongString()),
-                  initialSelection: 'TF',
+                  initialSelection: null,
                   showFlag: false,
                   showFlagDialog: true,
                   showCountryOnly: true,
@@ -89,7 +89,7 @@ class _MyAppState extends State<MyApp> {
                 child: CountryCodePicker(
                   enabled: false,
                   onChanged: (c) => c.name,
-                  initialSelection: 'TF',
+                  initialSelection: '',
                   showCountryOnly: true,
                   showOnlyCountryWhenClosed: true,
                   // favorite: ['+39', 'FR'],
