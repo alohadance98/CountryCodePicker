@@ -1,5 +1,10 @@
 const List<Map<String, String>> codes = [
   {
+    "name": "Please choose nationality",
+    "code": "EMPTY",
+    "nationality_id": "290",
+  },
+  {
     "name": "Afghanistan",
     "code": "AF",
     "nationality_id": "36",

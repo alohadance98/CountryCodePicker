@@ -76,6 +76,8 @@ class _MyAppState extends State<MyApp> {
                 child: CountryCodePicker(
                   onChanged: (e) => print(e.toLongString()),
                   initialSelection: 'TF',
+                  showFlag: false,
+                  showFlagDialog: true,
                   showCountryOnly: true,
                   showOnlyCountryWhenClosed: true,
                   // favorite: ['+39', 'FR'],
